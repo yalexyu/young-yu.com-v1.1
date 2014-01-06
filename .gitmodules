@@ -1,0 +1,3 @@
+[submodule "v1_0"]
+	path = v1_0
+	url = git@github.com:yalexyu/young-yu.com-v1.0.git
