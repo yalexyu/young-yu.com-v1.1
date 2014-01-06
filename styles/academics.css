@@ -1,0 +1,37 @@
+/*** The following CSS applies to academics.php ***/
+/* Main content width: 780px */
+
+#main-course {
+	float: left;
+	width: 450px;
+}
+
+#side-course {
+	float: right;
+	width: 300px;
+}
+
+#main-course .subject, #side-course .subject {
+	font: bold 20px Book Antiqua, Arial, sans-serif;
+	margin-top: 20px;
+}
+
+#main-course .course-name, #side-course .course-name {
+	font: 15px Book Antiqua, Arial, sans-serif;
+}
+
+#main-course .course-name:before, #side-course .course-name:before {
+	content: url('../images/red-triangle-bullet-10.png');
+	margin-right: 5px;
+}
+
+.separator {
+	clear: both;
+	height: 1px;
+	background: rgba(179, 27, 27, 1);
+	width: 100%;
+}
+
+ #main-course .current-course, #side-course .current-course {
+	font-weight: bold;
+}

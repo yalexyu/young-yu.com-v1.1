@@ -1,0 +1,16 @@
+[07-Jan-2013 18:34:39] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'inc/doctype.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home4/youngyuc/public_html/index.php on line 1
+[07-Jan-2013 18:35:57] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'inc/doctype.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home4/youngyuc/public_html/index.php on line 1
+[28-Jan-2013 11:18:27] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:18:32] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:18:45] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:14] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:17] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:18] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:19] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:19] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:20] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:20] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:20:21] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:21:41] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:21:42] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126
+[28-Jan-2013 11:21:50] PHP Parse error:  syntax error, unexpected ';' in /home4/youngyuc/public_html/contact.php on line 126

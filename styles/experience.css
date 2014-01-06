@@ -1,0 +1,54 @@
+/*** The following CSS applies to experience.php ***/
+
+.experience {
+	max-width: 780px;
+	word-break: break-word;
+	
+	padding-top: 20px;
+	overflow: auto;
+}
+
+.experience .title {
+	float: left;
+	font: bold 20px Book Antiqua, Arial, sans-serif;
+	margin: 0px;
+}
+
+.experience .description {
+	clear: left;
+	float: left;
+	font: italic 15px Book Antiqua, Arial, sans-serif;
+	margin: 0px;
+}
+
+.experience .date {
+	float: right;
+	font: 15px Book Antiqua, Arial, sans-serif;
+	margin: 0px;
+}
+
+.experience .location {
+	clear: right;
+	float: right;
+	font: italic 15px Book Antiqua, Arial, sans-serif;
+}
+
+.experience .mainpoints {
+	display: block;
+	clear: both;
+	list-style-image: url('../images/red-triangle-bullet-10.png');
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+}
+
+.experience .mainpoints li {
+	font: 15px Book Antiqua, Arial, sans-serif;
+	word-break: break-word;
+}
+
+.separator {
+	clear: both;
+	height: 1px;
+	background: rgba(179, 27, 27, 1);
+	width: 100%;
+}

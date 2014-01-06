@@ -1,0 +1,100 @@
+/*** The following CSS applies to contact.php ***/
+
+#contact-form {
+    position: relative;
+    width: 790px;
+    height: auto;
+    margin-top: 180px;
+    
+}
+
+#contact-form fieldset {
+    padding: 10px 20px;
+}
+
+#contact-form legend {
+    font: 20px Vollkorn;
+}
+
+#contact-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    
+    font: 16px Vollkorn;
+}
+
+#contact-form input {
+    display: block;
+    margin-bottom: 35px;
+}
+
+#contact-form-wrap {
+    position: relative;
+}
+
+#firstname, #lastname {
+    width: 250px;
+}
+
+#email-address {
+    width: 250px;
+}
+
+#message-title {
+    width: 250px;
+}
+
+
+#message-body-div {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    
+}
+
+#message-body-l{
+}
+
+#message-body {
+    display: block;
+    height: 258px;
+    width: 400px;
+}
+
+#contact-form #submit-button {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 10px 0px 0px 20px;
+    
+}
+
+#contact-form #reset-button {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin: 10px 20px 0px 0px;
+}
+
+.errormsg {
+    color: #f00;
+    font: 14px Vollkorn;
+    margin-bottom: 20px;
+} 
+
+.errormsg li {
+    margin: 3px 0px 5px 20px;
+}
+
+#error-title {
+    color: #f00;
+    font: 16px Vollkorn;
+    margin: 0px;
+}
+
+.successmsg {
+    color: rgba(0, 79, 41, 1);
+    font: 14px Vollkorn;
+    margin: 0px 10px;
+}
+

@@ -1,0 +1,268 @@
+/***** This CSS applies Globally *****/
+/*** Global Elements ***/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #333;
+	font: 12px/20px Arial, sans-serif;
+}
+
+p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font: 16px Vollkorn;
+	margin-bottom: 20px;
+}
+
+a:link, a:visited {
+	color: rgba(179, 27, 27, 1)
+}
+
+a:hover {
+	color: rgba(179, 27, 27, 1)
+	text-decoration: none;
+}
+
+/*** Layout-Specific Elements ***/
+
+#header {
+	background: rgba(0, 79, 41, 1);
+	overflow: hidden;
+	position: fixed;
+	height: 150px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	
+	z-index: 999;
+}
+
+	#header-container {
+		position: relative;
+		margin: 0px auto;
+		padding: 0px;
+		width: 800px;
+		height: 150px;
+	}
+
+		#logo-block {
+			display: inline-block;
+			position: absolute;
+			left: -175px;
+			width: 175px;
+			height: 150px;
+			z-index: 999;
+		}
+
+		#logo-block img {
+			height: 150px;
+			z-index: 999;
+		}
+
+	#top-header-wrap {
+		height: 80px;
+	}
+
+		a#title {
+			display: inline-block;
+			position: absolute;
+			color: #fff;
+			font: 60px Book Antiqua, Helvetica, Arial, sans-serif;
+			height: 80px;
+			text-decoration: none;
+		}
+
+		#nav {
+			display: inline-block;
+			position: absolute;
+			right: 0px;
+			top: 23px;
+			list-style: none;
+			overflow: hidden;
+			background: rgba(0, 79, 41, 1);
+		}
+
+		#nav li {
+			display: inline-block;
+		}
+		
+		#nav a {
+			color: #fff;
+			display: block;
+			font: 20px Vollkorn, Arial, sans-serif;
+			padding: 5px 10px;
+			text-decoration: none;
+			font-variant: small-caps;
+		}
+		
+		#nav a:hover {
+			background: rgba(66, 170, 113, 1);
+		}
+
+		#nav .current a {
+			background: #fff;
+			color: #000;
+		}
+		
+	#bottom-header-wrap {
+		position: relative;
+		height: 70px;
+	}
+	
+		a#e-mail:link {
+			display: inline-block;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			
+			font: 20px Vollkorn;
+			line-height: 44px;
+			color: #fff;
+		}
+		
+		a#e-mail:hover {
+			text-decoration: none;
+		}
+		
+		a#e-mail:visited {
+			color: #fff;
+		}
+		
+		#social-media {
+				display: inline-block;
+				position: absolute;
+				left: 0px;
+				top: 10px;
+				width: 345px;
+				font: 20px Book Antiqua;
+			}
+			
+		#social-media:hover > #facebook {
+				color: #555;
+				border: #777 solid 2px;
+				background: rgba(179, 193, 225, 1);				
+			}
+			
+		#social-media:hover > #twitter {
+				color: #555;
+				border: #777 solid 2px;
+				background: rgba(194, 222, 239, 1);
+			}
+			
+			#facebook {
+					display: inline-block;
+					text-decoration: none;
+					line-height: 40px;
+					
+					background: rgba(116, 116, 116, 1); 
+					border: #fff solid 2px;
+					color: #fff;
+					
+					margin-right: 10px;
+					padding: 0px 15px;
+					
+					border-radius: 0px;
+					
+					-webkit-transition-property: background, border, color;
+					-webkit-transition-duration: .3s;
+					-webkit-transition-timing-function: ease-in-out;
+					-moz-transition-property: background, border, color;
+					-moz-transition-duration: .3s;
+					-moz-transition-timing-function: ease-in-out;
+					-o-transition-property: background, border, color;
+					-o-transition-duration: .3s;
+					-o-transition-timing-function: ease-in-out;
+				}
+			
+			#social-media:hover #facebook:hover {
+					background: rgba(59, 89, 152, 1);				
+					border: rgba(31, 65, 137, 1)solid 2px;
+					color: #fff;
+				}
+				
+			#twitter {
+					display: inline-block;
+					text-decoration: none;
+					line-height: 40px;
+					
+					background: rgba(116, 116, 116, 1); 
+					border: #fff solid 2px;
+					color: #fff;
+					
+					margin: 0px;
+					padding: 0px 15px;
+					
+					border-radius: 0px;
+					
+					-webkit-transition-property: background, border, color;
+					-webkit-transition-duration: .3s;
+					-webkit-transition-timing-function: ease-in-out;
+					-moz-transition-property: background, border, color;
+					-moz-transition-duration: .3s;
+					-moz-transition-timing-function: ease-in-out;
+					-o-transition-property: background, border, color;
+					-o-transition-duration: .3s;
+					-o-transition-timing-function: ease-in-out;
+				}
+				
+			#social-media:hover #twitter:hover {
+					background: rgba(140, 202, 239, 1);				
+					border: rgba(80, 161, 211, 1) solid 2px;
+					color: #fff;
+			}
+		
+#content {
+	position: relative;
+	margin: 150px auto 450px auto;
+	width: 800px;
+	min-height: 100px;
+}		
+
+	.portrait {
+		display: inline-block;
+		margin-top: 20px;
+		width: 233px;
+	}
+	
+	#about {
+		display: inline-block;
+		position: absolute;
+		top: 20px;
+		left: 253px;
+		width: 550px;
+		height: 117px;
+	}
+
+		#quotes {
+			display: block;
+			float: left;
+			width: 550px;
+			overflow: hidden;
+			margin-left: 2px;
+			margin-top: 5px;
+		}		
+
+		.aboutme {
+			font: 16px Book Antiqua, Helvetica, Arial, sans-serif;
+			line-height: 65px;
+			width: 550px;
+		}		
+		
+.current {
+	background: red;
+}
+
+.section {
+  border-bottom: 5px solid #ccc;
+  padding: 20px 0px;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
